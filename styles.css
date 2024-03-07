@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center; /* Center align text */
-    background-image: url('background.jpg'); /* Replace 'background.jpg' with your actual background image path */
+    background-image: url('images/background.jpg'); /* Replace 'background.jpg' with your actual background image path */
     background-size: cover;
     background-position: center;
 }
