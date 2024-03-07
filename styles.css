@@ -1,104 +1,49 @@
-/* Reset default margin and padding */
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
-body {
-    font-family: Arial, sans-serif;
-    text-align: center; /* Center align text */
-    background-image: url('images/background.jpg'); /* Replace 'background.jpg' with your actual background image path */
-    background-size: cover;
-    background-position: center;
-}
-
-/* Header styles */
-header {
-    padding: 50px 0;
-}
-
-/* Navigation styles */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-/* Logo styles */
-.logo {
-    max-width: 100px; /* Adjust size as needed */
-}
-
-/* About Stack Hub section styles */
-#about {
-    padding: 50px 0;
-}
-
-/* Section heading styles */
-h2 {
-    margin-bottom: 30px;
-}
-
-/* Get Started section styles */
-#get-started {
-    padding: 50px 0;
-}
-
-/* Call to Action button styles */
-.cta-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
+.header {
+    background-color: #333;
     color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/* Footer styles */
-footer {
-    background-color: #f4f4f4;
+    text-align: center;
     padding: 20px 0;
 }
 
-footer nav ul {
-    margin-bottom: 10px;
+.logo img {
+    width: 100px;
 }
 
-footer nav ul li {
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.hero {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.btn {
     display: inline-block;
-    margin-right: 20px;
-}
-
-footer nav ul li a {
+    background-color: #007bff;
+    color: #fff;
     text-decoration: none;
-    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
-.contact-info p {
-    margin-bottom: 10px;
-}
-
-.social-media a {
-    display: inline-block;
-    margin-right: 10px;
-    color: #333;
-}
-
+/* Add styles for other sections as needed */
