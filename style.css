@@ -1,50 +1,68 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
+/* Reset default margin and padding */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header, footer {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align text */
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your actual background image path */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header styles */
+header {
+    padding: 50px 0;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
+    font-weight: bold;
 }
 
-section {
-    padding: 50px 20px;
+/* Logo styles */
+.logo {
+    max-width: 100px; /* Adjust size as needed */
 }
 
-h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+/* About Stack Hub section styles */
+#about {
+    padding: 50px 0;
 }
 
+/* Section heading styles */
 h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-p {
-    font-size: 18px;
-    line-height: 1.6;
+/* Get Started section styles */
+#get-started {
+    padding: 50px 0;
 }
 
+/* Call to Action button styles */
 .cta-btn {
     display: inline-block;
     padding: 10px 20px;
@@ -54,33 +72,33 @@ p {
     border-radius: 5px;
 }
 
-/* Footer Styles */
+/* Footer styles */
 footer {
-    margin-top: 50px;
+    background-color: #f4f4f4;
+    padding: 20px 0;
 }
 
-.contact-info, .social-media {
-    margin-bottom: 20px;
+footer nav ul {
+    margin-bottom: 10px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
 }
 
 .social-media a {
     display: inline-block;
     margin-right: 10px;
-    color: #007bff;
+    color: #333;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 30px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 16px;
-    }
-    .cta-btn {
-        padding: 8px 16px;
-    }
-}
